@@ -1,15 +1,23 @@
 #include <stdio.h>
+
 /**
  * main - entry point
  *
- * Return: always 0
+ * Description: print lower case letters in reverse
+ *
+ * Return: Always 0 (success)
+ *
  */
+
 int main(void)
 {
-	int n;
+	char ba;
 
-	for (n <= '0' ; n >= '0' ; n++)
-		putchar(n);
+	for (ba = 'z'; ba >= 'a'; ba--)
+
+		putchar(ba);
+
 	putchar('\n');
+
 	return (0);
 }
